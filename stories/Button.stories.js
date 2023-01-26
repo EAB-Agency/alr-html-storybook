@@ -1,6 +1,25 @@
 import './button.css';
-
+const fileUrl = './button.css'; // provide file location
 import dedent from 'ts-dedent';
+
+
+
+// function getAsText(readFile) {
+//   var reader;
+//   try {
+//     reader = new FileReader();
+//   } catch (e) {
+//     console.log('Error: seems File API is not supported on your browser');
+//     return;
+//   }
+  
+//   // Read file into memory as UTF-8
+//   reader.readAsText(readFile, 'UTF-8');
+// }
+
+// const getAsTextContents = getAsText(fileUrl);
+
+
 
 export default {
   title: 'Example/Button',
@@ -42,7 +61,7 @@ CustomSource.parameters = {
   docs: {
     source: {
       code: dedent`
-        .eab-button {
+      .eab-button {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
@@ -73,7 +92,7 @@ CustomSource.parameters = {
   padding: 12px 24px;
 }
 
-        `,
+      `,
       language: 'css',
       type: 'auto',
     },

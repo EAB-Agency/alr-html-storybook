@@ -26,7 +26,9 @@
     "chromatic": "^6.15.0"
   },
   "dependencies": {
+    "@storybook/addon-docs": "^6.5.16",
     "@storybook/addon-storysource": "^6.5.16",
+    "react-syntax-highlighter": "^15.5.0",
     "ts-dedent": "^2.2.0"
   },
   "readme": "ERROR: No README data found!",
