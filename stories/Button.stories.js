@@ -21,3 +21,9 @@ Secondary.args = {
   label: 'Button',
   className: 'button--secondary button--medium',
 };
+
+export const Large = Template.bind({});
+Large.args = {
+  label: 'Button',
+  className: 'button--primary button--large',
+};

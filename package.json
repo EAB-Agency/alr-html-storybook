@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=7c871478b2d1"
   },
   "keywords": [],
   "author": "",
@@ -26,5 +27,7 @@
   },
   "dependencies": {
     "@storybook/addon-storysource": "^6.5.16"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "html-example@1.0.0"
 }
