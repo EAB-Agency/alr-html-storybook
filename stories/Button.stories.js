@@ -27,3 +27,10 @@ Large.args = {
   label: 'Button',
   className: 'button--primary button--large',
 };
+
+
+export const LargeSecondary = Template.bind({});
+LargeSecondary.args = {
+  label: 'Large Secondary Button',
+  className: 'button--secondarty button--large',
+};
